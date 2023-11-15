@@ -2,7 +2,7 @@
 id: wwhwjd1sxsarysniadzuadv
 title: Forensics Fundamentals
 desc: ''
-updated: 1698860346075
+updated: 1700068118360
 created: 1695822862943
 ---
 
@@ -45,3 +45,17 @@ created: 1695822862943
 [Answers](/Forensics%20Fundamentals/Week%204%20-%20Practical%20Labs%20Answers.pdf)
 
 [Extra Answers](/Forensics%20Fundamentals/Week%204%20-%20Practical%20Extra%20Answers.pdf)
+
+## Week 5
+
+[Registry forensics PDF](/Forensics%20Fundamentals/Week%205%20-%20Registry%20forensics.pdf)
+
+[Registry forensics Practical PDF](/Forensics%20Fundamentals/Week%205%20-%20Registry%20Labs.pdf)
+
+[Answers](/Forensics%20Fundamentals/Week%205%20-%20Registry%20Labs%20Answers.pdf)
+
+## Week 6
+
+[Anti Forensics PDF](/Forensics%20Fundamentals/Week%206%20-%20Anti%20Forensics.pdf)
+
+[Anti Forensics Practical PDF](/Forensics%20Fundamentals/Week%206%20-%20Anti%20Forensics%20Labs.pdf)

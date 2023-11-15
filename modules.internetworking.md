@@ -2,7 +2,7 @@
 id: hbufmzqr4by8dm4rxrglecq
 title: Internetworking
 desc: ''
-updated: 1698861137292
+updated: 1700068489415
 created: 1695822925384
 ---
 
@@ -73,3 +73,39 @@ Broadcast - last address of host part
 
 [Supernetting PDF](/Internetworking/Week%205%20-%20Supernetting.pdf)
 
+## Week 6
+
+[Routing PDF](/Internetworking/Week%206%20-%20Routing.pdf)
+
+**Routing** - the act of forwarding a packet from one router to another router towards the destination host.
+
+**Gateway** - router that connects two networks
+
+Static routing - manually configured routing table by network admin, not scalable, not viable for large networks
+
+Anatomy of a routing table entry:
+* Code - what process discovered the route
+* Network and mask - destination network and mask
+* AD/Metric - administrative distance and metric
+* Next hop - IP address of next hop
+* Interface - exit interface
+
+Routers supporting different protocols can be used in the same network.
+
+**Convergence** - when all routers have the same routing table
+
+**Routing loop** - when a packet is forwarded between two routers in a circular fashion, it occurs when there is a problem with the routing table (slow convergence, incorrect metric, incorrect AD).
+
+Metric:
+* Hop count - number of routers between source and destination
+* Path length - sum of the link speeds between source and destination
+* Bandwidth - the bandwidth of the slowest link between source and destination
+* Delay - the sum of the delays between source and destination
+* Load - the load on the slowest link between source and destination
+* Reliability - the reliability of the slowest link between source and destination (based on bit error rates)
+
+## Week 7
+
+[RIP PDF](/Internetworking/Week%207%20-%20RIP.pdf)
+
+[RIP Labs](/Internetworking/Week%207%20-%20RIP%20Labs.pdf)

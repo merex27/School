@@ -2,7 +2,7 @@
 id: 1fm2gs46y0osv3mdw6i29s7
 title: Operating Systems
 desc: ''
-updated: 1698861822800
+updated: 1700069045196
 created: 1695822906139
 ---
 
@@ -22,7 +22,7 @@ All questions on the quizzes are from the lecture slides.
 usermode
 kernelmode
 
-CPU - brain of computer is built♠️ of CU(Program counter), ALU(Arithmetic logic unit), registers(small,fast memory) (i think in QUIZ)
+CPU - brain of computer is built of CU(Program counter), ALU(Arithmetic logic unit), registers(small,fast memory) (i think in QUIZ)
 
 Main registers: (couple of questions in QUIZ)
 EAX, EBX, ECX, EDX and EBP, ESI, EDI, ESP
@@ -94,7 +94,7 @@ Peterson's algorithm - interest and turn at the same time solves the problem but
 
 Deadlock recovery - kill one of the threads
 
-Avoiding deadlocks 
+Avoiding deadlocks.
 (SLIDE 23/32 AND LATER ON QUIZ AND EXAM) 
 
 **Unsafe area** - when 2 threads are in critical section at the same time
@@ -117,7 +117,7 @@ Process consists of:
 
 **Quantum** - time slice given to process to execute
 
-Process states: (QUZI QUESTION)
+Process states: (QUIZ QUESTION)
 * new - process is being created
 * ready - process is ready to be executed
 * running - process is being executed
@@ -125,5 +125,26 @@ Process states: (QUZI QUESTION)
 * terminated - process is finished
 
 **Process Control Block (PCB)** - data structure that contains all information about process like PID, state, priority, memory, registers, etc.
-
 PCB does not contain program variables, code or heap. (QUIZ QUESTION)
+
+**System calls** - interface between user and kernel mode (interrupts)
+
+**Trap** - software interrupt, when user program calls system call
+
+## Week 6
+
+[Inter-Process Communication PDF](/Operating%20Systems/Week%206%20-%20Inter-Process%20Communication.pdf)
+
+[Labs](/Operating%20Systems/Week%206%20-%20Inter-Process%20Communication%20Labs.pdf)
+
+**Inter-process communication (IPC)** - a mechanism that allows processes to communicate with each other and synchronize their actions.
+
+Processes can communicate by:
+* pipes and sockets - processes communicate through a unidirectional (pipes) or bidirectional (sockets) channel
+* Shared memory - processes share a common area in memory for direct data exchange
+* Message passing - processes communicate by sending messages, often via a message queue
+* Remote procedure call - one process can execute code in another address space as if it were a local procedure
+
+## Week 7
+
+[File Systems PDF](/Operating%20Systems/Week%207%20-%20File%20Systems.pdf)
